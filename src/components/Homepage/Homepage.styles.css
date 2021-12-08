@@ -1,0 +1,33 @@
+main h1{
+    text-align: center;
+    color: rgb(238,164,80);
+    font-size: 3rem;
+}
+
+
+#latest-products{
+   width: 80%;
+   margin: 2rem auto;
+}
+
+#latest-products ul{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.food-item{
+list-style: none;
+background-color: rgb(228,206,182);
+border-radius: 6px;
+overflow: hidden;
+}
+
+
+.food-item img{
+height: 15rem;
+width: 100%;
+object-fit: cover;
+}
